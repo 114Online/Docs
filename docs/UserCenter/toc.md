@@ -1,6 +1,6 @@
 # [系统简介](intro.md)
 # 公共接口
-## [用户授权](pub-auth.md)
+## [用户应用授权](pub-auth.md)
 ## [调整积分](pub-coins.md)
 ## [获取用户资料](pub-profile.md)
 ## [微信转账](pub-transfer-money.md)
