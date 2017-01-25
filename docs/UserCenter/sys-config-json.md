@@ -18,6 +18,7 @@
         "AuthCaching": 15
     },
     "Host": {
+        "SqlEngine": "MySQL",
         "ConnectionString": "server=localhost;uid=root;pwd=123456;database=hd_usercenter",
         "Redis": "localhost"
     },
@@ -51,7 +52,8 @@
 
 | 成员名 | 类型 | 备注 |
 |--------|-----|------|
-| ConnectionString | string | MySQL数据库连接字符串 |
+| SqlEngine | string | 数据库类型（填写`MySQL`或`SQL Server`） |
+| ConnectionString | string | 数据库连接字符串 |
 | Redis | string | Redis连接字符串 |
 
 ### Sms
