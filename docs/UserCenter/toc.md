@@ -1,9 +1,10 @@
 # [系统简介](intro.md)
 # 公共接口
-## [用户应用授权](pub-auth.md)
-## [调整积分](pub-coins.md)
+## [用户授权](pub-auth.md)
 ## [获取用户资料](pub-profile.md)
+## [调整积分](pub-coins.md)
 ## [微信转账](pub-transfer-money.md)
+## [发送手机短信](pub-sms.md)
 # 系统维护与二次开发
 ## [开发准则](sys-rule.md)
 ## [微信用户存储结构](sys-profile.md)
