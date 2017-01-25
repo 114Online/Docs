@@ -4,6 +4,9 @@
 ## [调整积分](pub-coins.md)
 ## [获取用户资料](pub-profile.md)
 ## [微信转账](pub-transfer-money.md)
-# 系统维护与扩展
+# 系统维护与二次开发
 ## [开发准则](sys-rule.md)
-## [扩展用户基本资料](sys-profile.md)
+## [微信用户存储结构](sys-profile.md)
+## [短信接口](sys-sms.md)
+## [微信转账](sys-transfer-money.md)
+## [系统配置文件](sys-config-json.md)
