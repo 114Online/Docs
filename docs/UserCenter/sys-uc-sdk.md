@@ -41,3 +41,5 @@ public async Task<IActionResult> Index([FromServices] HongdingUC UC)
     return View(profile);
 }
 ```
+
+[在GitHub上查看完整示例](https://github.com/114Online/Hongding.WeChat.UserCenter.SDK/tree/master/samples/SampleWeb)
