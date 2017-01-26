@@ -14,7 +14,7 @@
 | secret | string | 创建应用时系统提供的64字符的私钥 |
 | username | string | 租户的用户名 |
 | password | string | 租户的密码 |
-| newpassword | string | 租户的密码 |
+| newpassword | string | 新密码 |
 
 举例：
 
