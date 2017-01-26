@@ -29,7 +29,10 @@ password = 123456
 
 | 参数名 | 格式 | 备注 |
 |-------|------|-----|
-| data | string | 用户角色（`Root`或`Tenant`） |
+| data | object | 租户基本信息对象 |
+| data.role | string | 用户角色（`Root`或`Tenant`）|
+| data.id | long | 租户ID |
+| data.name | string | 租户名称 | 
 
 返回值或行为：
 
@@ -37,6 +40,10 @@ password = 123456
 {
     "code": 200,
     "msg": "success",
-    "data": "Tenant"
+    "data": {
+        "role": "Tenant",
+        "id": 1,
+        "name": "龙广汽车人"
+    }
 }
 ```
